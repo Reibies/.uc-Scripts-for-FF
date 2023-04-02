@@ -1,0 +1,93 @@
+/* Hide tab tooltip */
+#tabbrowser-tab-tooltip {
+  display: none !important;
+}
+
+
+/* Add label as tooltip on tab hover */
+.tabbrowser-tab:before {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  content: attr(label);
+  background: var(--background-color);
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  border-top: none;
+  max-width: 230px;
+  max-height: 100px;
+  padding: 2px 5px;
+  margin-top: 84px;
+  position: fixed;
+  transition: all ease .48s;
+  margin-left: -5px;
+  z-index: 1;
+
+}
+
+.tabbrowser-tab:hover::before {
+  opacity: 1;
+  transition: all ease-in .37s;
+  top: 0;
+}
+
+/* Set tab width */
+.tabbrowser-tab {
+  width: 30px !important;
+  min-width: 30px !important;
+  max-width: 30px !important;
+}
+
+.tab-icon-image
+{
+    margin-left: -15% !important;
+}
+
+.tabbrowser-tab * {
+    background-image: none !important;
+}
+
+/* Hide non-pinned tabs */
+.tabbrowser-tab:not([pinned], [fadein]) {
+  display: none !important;
+}
+
+
+/* Restore empty favicon */
+.tab-icon-image:not([src], [pinned]) {
+  display: block !important;
+  margin: 0 auto;
+}
+
+/* Hide tab close button */
+.tabbrowser-tab .tab-close-button {
+  display: none !important;
+}
+
+/* Hide tab scrolling arrows and buttons */
+.arrowscrollbox-overflow-start-indicator,
+.arrowscrollbox-overflow-end-indicator,
+.scrollbutton-up,
+.scrollbutton-down,
+#alltabs-button {
+  display: none !important;
+}
+
+/* Style selected tab */
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
+#tabbrowser-tabs:not([noshadowfortests]) .tab-background:is([selected], [multiselected]) {
+  box-shadow: none;
+  border: 1px solid var(--border-color);
+  border-radius: 5px 5px 0 0!important;
+  border-bottom: 0px;
+}
+
+/* Hide titlebar spacer */
+hbox.titlebar-spacer {
+  visibility: collapse;
+}
+
+/* Hide titlebar button labels */
+.titlebar-button > .toolbarbutton-text {
+  display: none;
+}
