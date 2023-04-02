@@ -1,0 +1,19 @@
+/* Light Mode */
+:root {
+  --border-color: #b2b2b2;
+  --border-hover-color: #a5a5a5;
+  --text-color: #333333;
+  --text-hover-color: #444444;
+  --background-color: #e9f1f7;
+  --background-hover-color: #c8d7e3;
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+:root {
+  --border-color: #4d4d4d;
+  --border-hover-color: #5c5c5c;
+  --text-color: #e5e5e5;
+  --text-hover-color: #cccccc;
+  --background-color: #1a1a1a;
+  --background-hover-color: #333333;
+}}
