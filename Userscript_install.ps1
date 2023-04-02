@@ -43,6 +43,16 @@ if ($chosen -eq 0 -or $chosen -eq 2) {
     }
 }
     
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+
+$popupMessage = "Thank you for downloading!`ncredit: https://github.com/xiaoxiaoflood/firefox-scripts.`nCheck the above link for more userscripts to install."
+$popupTitle = "Download Complete"
+$popupButton = [System.Windows.Forms.MessageBoxButtons]::OK
+$popupIcon = [System.Windows.Forms.MessageBoxIcon]::Information
+
+# Display the popup
+[System.Windows.Forms.MessageBox]::Show($popupMessage, $popupTitle, $popupButton, $popupIcon)
 
 #Remove zips
 Remove-Item $fxZipPath, $utilsZipPath -Force
