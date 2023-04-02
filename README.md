@@ -19,3 +19,6 @@ Place for me to put any JS or CSS for Firefox
 
 [**Rights to close**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/Rights%20to%20close.uc.js)
 > This is a userchrome script that allows you to double right click anywhere on a page to close the current tab
+
+[**Custom tab in about:pref**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/about%20pref%20Newtab.uc.js)
+> There are a lot of these but I wanted to paste it into about:preference#home
