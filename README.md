@@ -12,6 +12,9 @@ Place for me to put any JS or CSS for Firefox
 
 ## CSS
 
+[**CSS Variables**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/css/%5BCSS%20Variables%5D.css)
+> These are just some random colors that you can change and use with css I put out, subject to change the names but ill update everything if I do.
+
 [**Favicon tabs**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/css/%5BFavicon%20Tabs%5D.css)
 > Reduces tabs to a purely favicon state
 
