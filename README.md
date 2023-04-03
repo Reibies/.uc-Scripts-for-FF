@@ -12,6 +12,9 @@ Below is a Powershell script that potentially auto does everything above on it's
 [**Custom tab in about:pref**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/about%20pref%20Newtab.uc.js)
 > There are a lot of these but I wanted to paste it into about:preference#home
 
+[**URL Grabber**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/URL_Grabber.uc.js)
+> Small script that lets you right click the url to grab the URL of the current tab
+
 ## CSS
 
 [**CSS Variables**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/css/%5BCSS%20Variables%5D.css)
