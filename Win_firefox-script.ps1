@@ -1,4 +1,3 @@
-####CREDIT AND FULL INSTRUCTIONS AND USERSCRIPTS https://github.com/xiaoxiaoflood/firefox-scripts
 # download and extract fx-folder.zip to Firefox installation folder
 $fxZipUrl = "https://raw.githubusercontent.com/xiaoxiaoflood/firefox-scripts/master/fx-folder.zip"
 $fxZipPath = "$env:ProgramFiles\Mozilla Firefox\fx-folder.zip"
