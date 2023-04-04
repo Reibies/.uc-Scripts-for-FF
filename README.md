@@ -15,7 +15,7 @@ Below is a folder for scripts that potentially auto does everything above on it'
 [**URL Grabber**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/URL_Grabber.uc.js)
 > Small script that lets you right click the url to grab the URL of the current tab
 
-## CSS
+## CSS _I reccomend using [StyloiX](https://raw.githubusercontent.com/xiaoxiaoflood/firefox-scripts/master/chrome/styloaix.zip) to manage these_
 
 [**CSS Variables**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/css/%5BCSS%20Variables%5D.css)
 > These are just some random colors that you can change and use with css I put out, subject to change the names but ill update everything if I do.
