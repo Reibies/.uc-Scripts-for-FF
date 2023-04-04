@@ -3,7 +3,7 @@ $fxZipUrl = "https://raw.githubusercontent.com/xiaoxiaoflood/firefox-scripts/mas
 $fxZipPath = "$env:ProgramFiles\Mozilla Firefox\fx-folder.zip"
 Invoke-WebRequest -Uri $fxZipUrl -OutFile $fxZipPath
 Expand-Archive -Path $fxZipPath -DestinationPath "$env:ProgramFiles\Mozilla Firefox" -Force
-
+ 
 # get the latest Firefox profile folder
 $profileFolderPath = "$env:APPDATA\Mozilla\Firefox\Profiles\*.default-release"
 $latestProfileFolder = Get-ChildItem -Path $profileFolderPath | Sort-Object -Property LastWriteTime -Descending | Select-Object -First 1
