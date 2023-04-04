@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 # download and extract fx-folder.zip to Firefox installation folder
 fxZipUrl="https://raw.githubusercontent.com/xiaoxiaoflood/firefox-scripts/master/fx-folder.zip"
 fxZipPath="/Applications/Firefox.app/Contents/Resources/fx-folder.zip"
