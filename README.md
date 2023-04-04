@@ -1,6 +1,6 @@
 [If you want to use any of this you will need to follow the instructions in this link as a prerequisite](https://github.com/xiaoxiaoflood/firefox-scripts)
 
-Below is a folder for a Powershell script that potentially auto does everything above on it's own but I havent tested it so expect possible data loss and needing to re-install Firefox. I'll try and test it properly later on a virtual enviorment or my laptop.
+Below is a folder for scripts that potentially auto does everything above on it's own but I havent tested it so expect possible data loss and needing to re-install Firefox. I'll try and test it properly later on a virtual enviorment or my laptop.
 
 [**DONT USE UNLESS YOU ARE PREPARED FOR IT TO BREAK THINGS**](https://github.com/Reibies/.uc-Scripts-for-FF/tree/main/Autoinstallers)
 
