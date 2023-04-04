@@ -5,7 +5,6 @@ Below is a folder for scripts that potentially auto does everything above on it'
 [**Link to 1 untested windows script and a macos/Linux script that wont lead to the right folders**](https://github.com/Reibies/.uc-Scripts-for-FF/tree/main/Autoinstallers)
 
 ## JS
-
 [**Rights to close**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/Rights%20to%20close.uc.js)
 > This is a userchrome script that allows you to double right click anywhere on a page to close the current tab
 
