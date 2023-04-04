@@ -2,7 +2,7 @@
 
 Below is a folder for scripts that potentially auto does everything above on it's own but I havent tested it so expect possible data loss and needing to re-install Firefox. I'll try and test it properly later on a virtual enviorment or my laptop.
 
-[**DONT USE UNLESS YOU ARE PREPARED FOR IT TO BREAK THINGS**](https://github.com/Reibies/.uc-Scripts-for-FF/tree/main/Autoinstallers)
+[**Link to 1 untested windows script and a macos/Linux script that wont lead to the right folders**](https://github.com/Reibies/.uc-Scripts-for-FF/tree/main/Autoinstallers)
 
 ## JS
 
