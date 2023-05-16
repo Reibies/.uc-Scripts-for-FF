@@ -2,7 +2,11 @@
 
 Below is a folder for scripts that potentially auto does everything above on it's own but I havent tested it so expect possible data loss and needing to re-install Firefox. I'll try and test it properly later on a virtual enviorment or my laptop.
 
-[**Link to 1 untested windows script and a macos/Linux script that wont lead to the right folders**](https://github.com/Reibies/.uc-Scripts-for-FF/tree/main/Autoinstallers)
+## Autoinstallers (Not all tested)
+[Windows](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/Autoinstallers/Win_firefox-script.ps1) (Tested on win10)
+[Linux](https://github.com/Reibies/.uc-Scripts-for-FF/blob/main/Autoinstallers/Linux_firefox-script.sh) (Untested)
+[MacOS](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/Autoinstallers/MacOSfirefox-script.sh) (Untested)
+
 
 ## JS
 [**Rights to close**](https://raw.githubusercontent.com/Reibies/.uc-Scripts-for-FF/main/js/Rights%20to%20close.uc.js)
